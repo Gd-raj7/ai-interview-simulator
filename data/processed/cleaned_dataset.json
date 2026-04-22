@@ -1,0 +1,326 @@
+[
+  {
+    "question":"what is data science?",
+    "answer":"data science is a field of computer science that turns raw data into meaningful insights to drive decisions and innovations",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"differentiate between data analytics and data science.",
+    "answer":"data analytics is a subset of data science focused on analyzing data for specific insights, while data science is broader and also includes prediction, mining, and visualization",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what do you understand about linear regression?",
+    "answer":"linear regression is a supervised learning algorithm that models the linear relationship between a dependent variable and one or more independent variables",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is logistic regression?",
+    "answer":"logistic regression is a binary classification algorithm that produces an s-shaped curve with output values between 0 and 1 representing probabilities",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is a confusion matrix?",
+    "answer":"a confusion matrix is a 2x2 table that compares actual vs predicted values using true positives, true negatives, false positives, and false negatives to evaluate model performance",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what do you understand about the true-positive rate and false-positive rate?",
+    "answer":"true positive rate (tpr = tp\/positives) measures correctly identified positives, while false positive rate (fpr = fp\/negatives) measures negatives incorrectly classified as positive",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"how is data science different from traditional application programming?",
+    "answer":"traditional programming uses manually written rules to map inputs to outputs, while data science automatically learns those rules from labeled data through a training process",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"explain the differences between supervised and unsupervised learning.",
+    "answer":"supervised learning trains on labeled data for prediction or classification, while unsupervised learning finds hidden patterns in unlabeled data",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what is the difference between long format data and wide format data?",
+    "answer":"long format has one row per observation per variable, while wide format has one row per subject with each variable in a separate column",
+    "category":"python",
+    "difficulty":"medium"
+  },
+  {
+    "question":"mention some techniques used for sampling. what is the main advantage of sampling?",
+    "answer":"sampling techniques include simple random, stratified, cluster, systematic (probability) and convenience, purposive, quota, snowball (non-probability); the main advantage is determining research accuracy efficiently",
+    "category":"statistics",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is bias in data science?",
+    "answer":"bias is an error caused by an overly simple model that fails to capture underlying patterns in data, leading to underfitting",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is dimensionality reduction?",
+    "answer":"dimensionality reduction is the process of reducing the number of features in a dataset while retaining the most relevant information",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"why is python used for data cleaning in data science?",
+    "answer":"python libraries like pandas, numpy, matplotlib, keras, and scipy provide powerful tools to handle missing values, outliers, and inconsistent data efficiently",
+    "category":"python",
+    "difficulty":"easy"
+  },
+  {
+    "question":"why is r used in data visualization?",
+    "answer":"r offers 12,000+ open-source packages, strong community support, and distributed computing capabilities that make it ideal for data analysis and visualization",
+    "category":"python",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what are the popular libraries used in data science?",
+    "answer":"popular libraries include tensorflow, pytorch, pandas, numpy, matplotlib, scipy, and keras, used for model building, data manipulation, and visualization",
+    "category":"python",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is variance in data science?",
+    "answer":"variance is an error caused by an overly complex model that learns noise from training data, resulting in overfitting and poor performance on unseen data",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is pruning in a decision tree algorithm?",
+    "answer":"pruning removes unnecessary branches from a decision tree to reduce complexity, prevent overfitting, and improve accuracy and speed",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is entropy in a decision tree algorithm?",
+    "answer":"entropy measures the impurity or randomness in a dataset; a value of 0 means pure data and higher values indicate more disorder",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is information gain in a decision tree algorithm?",
+    "answer":"information gain measures the reduction in entropy achieved by splitting data on a particular feature; the feature with the highest gain is chosen for the split",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is k-fold cross-validation?",
+    "answer":"k-fold cross-validation divides data into k parts, trains on k-1 parts and tests on the remaining one, repeated k times so every part is used for testing",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain how a recommender system works.",
+    "answer":"a recommender system suggests content to users based on their past activity and preferences, or based on the behavior of similar users",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what is a normal distribution?",
+    "answer":"a normal distribution is a symmetric, bell-shaped data distribution centered around the mean with no skew to the left or right",
+    "category":"statistics",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is deep learning?",
+    "answer":"deep learning is a subset of machine learning that uses multi-layered neural networks to mimic how the human brain learns from data",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is an rnn (recurrent neural network)?",
+    "answer":"an rnn is a neural network designed to recognize patterns in sequential data by storing contextual information from previous computations",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain selection bias.",
+    "answer":"selection bias occurs when a sample is not representative of the population, leading to skewed or inaccurate conclusions in a study",
+    "category":"statistics",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is the roc curve?",
+    "answer":"the roc curve plots true positive rate vs false positive rate across thresholds; a curve closer to the upper-left corner indicates a better model",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is a decision tree?",
+    "answer":"a decision tree is a supervised algorithm where internal nodes test features, branches represent outcomes, and leaf nodes hold class labels for classification or regression",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is a random forest model?",
+    "answer":"a random forest combines multiple decision trees and aggregates their predictions to improve accuracy and reduce overfitting",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is precision?",
+    "answer":"precision is the ratio of correctly predicted positive observations to the total predicted positives, measuring prediction exactness",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is recall?",
+    "answer":"recall is the ratio of correctly predicted positives to all actual positives, measuring the model's ability to find all positive cases",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is the f1 score and how to calculate it?",
+    "answer":"f1 score is the harmonic mean of precision and recall calculated as f1 = 2 * (precision * recall) \/ (precision + recall), giving a single accuracy metric",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what is a p-value?",
+    "answer":"a p-value is the probability that the observed result occurred by chance under the null hypothesis; a low p-value indicates statistical significance",
+    "category":"statistics",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is the difference between an error and a residual error?",
+    "answer":"error is the difference between observed and true values, while residual error is the difference between observed and predicted values used to evaluate model performance",
+    "category":"statistics",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what is the bias-variance tradeoff?",
+    "answer":"the bias-variance tradeoff is the balance between underfitting (high bias) and overfitting (high variance); the goal is a model with both low bias and low variance",
+    "category":"machine learning",
+    "difficulty":"hard"
+  },
+  {
+    "question":"what is rmse?",
+    "answer":"rmse (root mean square error) measures average prediction error in regression by taking the square root of the mean of squared differences between actual and predicted values",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what is a kernel function in svm?",
+    "answer":"a kernel function in svm transforms non-linearly separable data into a higher-dimensional space where it becomes linearly separable",
+    "category":"machine learning",
+    "difficulty":"hard"
+  },
+  {
+    "question":"how can we select an appropriate value of k in k-means?",
+    "answer":"use the elbow method: run k-means for a range of k values, plot inertia vs k, and choose the k where the rate of decrease sharply slows down",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"how can we deal with outliers?",
+    "answer":"outliers can be removed if extreme, or handled by normalizing data, switching model types, or using outlier-robust algorithms like random forest",
+    "category":"python",
+    "difficulty":"medium"
+  },
+  {
+    "question":"how to calculate the accuracy of a binary classification algorithm using its confusion matrix?",
+    "answer":"accuracy = (true positives + true negatives) \/ total observations, representing the proportion of all correctly classified instances",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what is ensemble learning?",
+    "answer":"ensemble learning combines multiple models to produce better predictions than any single model, especially on complex datasets",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain collaborative filtering in recommender systems.",
+    "answer":"collaborative filtering recommends items based on the preferences of users similar to the target user, regardless of item content",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain content-based filtering in recommender systems.",
+    "answer":"content-based filtering recommends items similar to what a user has previously liked, based on the properties of the content itself",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain bagging in data science.",
+    "answer":"bagging trains multiple models in parallel on bootstrapped data samples and combines their predictions through averaging (regression) or majority voting (classification)",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain boosting in data science.",
+    "answer":"boosting sequentially trains models where each new model focuses on correcting the errors of the previous ones to iteratively reduce bias",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain stacking in data science.",
+    "answer":"stacking combines predictions from multiple heterogeneous base models using a meta-model trained on those predictions to produce the final output",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain how machine learning is different from deep learning.",
+    "answer":"machine learning uses algorithms to learn from data automatically, while deep learning is a subset of ml that specifically uses multi-layered neural networks",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what does the word 'naive' mean in naive bayes?",
+    "answer":"'naive' refers to the assumption that all features in the dataset are completely independent of each other, which simplifies computation despite being unrealistic",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what are your thoughts about using gpt-3 for a business?",
+    "answer":"gpt-3 is a versatile deep learning text predictor useful for automating customer support, email drafting, code generation, language translation, and more",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"can you train a neural network without using backpropagation?",
+    "answer":"yes, using alternatives like evolutionary optimization or capsule routing, but none currently match the performance of backpropagation-based training",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"explain the working of a perceptron.",
+    "answer":"a perceptron computes a weighted sum of inputs, applies a step function, and outputs a binary result; it is the simplest unit of an artificial neural network",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"how do you decide the size of the filter when performing a convolution operation in a cnn?",
+    "answer":"filter size in a cnn depends on data complexity and is treated as a hyperparameter to be tuned; more filters capture more image features",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"when designing a cnn, can we find out how many convolutional layers to use?",
+    "answer":"there is no fixed rule; increment layers one at a time since accuracy gains become minimal beyond two or three layers",
+    "category":"machine learning",
+    "difficulty":"medium"
+  },
+  {
+    "question":"what are the key components of lstm?",
+    "answer":"lstm consists of an input gate, forget gate, output gate, and cell state that together manage information flow for handling long-term dependencies",
+    "category":"machine learning",
+    "difficulty":"easy"
+  },
+  {
+    "question":"what are the components of a general adversarial network (gan)?",
+    "answer":"a gan consists of a generator that creates synthetic data and a discriminator that distinguishes real from generated data, trained adversarially",
+    "category":"machine learning",
+    "difficulty":"hard"
+  }
+]
